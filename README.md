@@ -58,7 +58,7 @@ sh ./start.sh ewomail.cn
 
 使用文档
 
-http://doc.ewomail.com/ewomail
+http://doc.ewomail.com/docs/ewomail/install
 
 
 
