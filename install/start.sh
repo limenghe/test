@@ -230,14 +230,14 @@ init(){
         
         service php-fpm start
         service nginx start
-        systemctl restart spamassassin clamd@amavisd
+        systemctl restart spamassassin
         systemctl restart postfix dovecot fail2ban
         
         systemctl mask firewalld.service
         systemctl stop firewalld.service
         systemctl restart iptables
         freshclam
-        systemctl restart amavisd
+        systemctl restart amavisd clamd@amavisd
         
     else
         chkconfig mysqld on
