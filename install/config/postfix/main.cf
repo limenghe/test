@@ -699,6 +699,11 @@ smtp_use_tls = yes
 smtpd_use_tls = yes
 smtp_tls_note_starttls_offer = yes
 
+smtpd_tls_mandatory_protocols = TLSv1.1,TLSv1.2
+smtpd_tls_protocols = TLSv1.1,TLSv1.2
+smtpd_tls_mandatory_ciphers = medium
+tls_medium_cipherlist = AES128+EECDH:AES128+EDH
+
 smtpd_tls_security_level = may
 smtpd_tls_loglevel = 0
 smtpd_tls_session_cache_timeout = 3600s
@@ -732,13 +737,13 @@ virtual_transport = lmtp:unix:private/dovecot-lmtp
 
 mailbox_size_limit = 0
 
-#字节限制
+#瀛楄妭闄愬埗
 message_size_limit = 0
 content_filter = smtp-amavis:[127.0.0.1]:10024
 
 policy_time_limit = 3600
 
-#退信和超时设置
+#閫�淇″拰瓒呮椂璁剧疆
 queue_run_delay = 200s
 minimal_backoff_time = 200s
 maximal_backoff_time = 300s
