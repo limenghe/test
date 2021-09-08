@@ -1,8 +1,12 @@
-### 1.15更新说明
+### 1.15.1更新说明
 
 修复部分问题，添加邮箱批量删除，添加web SSL默认配置启用。
 
-更多配置和详细信息请参考文档
+更新组件
+
+
+更新教程
+http://doc.ewomail.com/docs/ewomail/update
 
 ### EwoMail
 
