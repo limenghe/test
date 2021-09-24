@@ -4,10 +4,6 @@
 
 更新组件
 
-
-更新教程
-http://doc.ewomail.com/docs/ewomail/update
-
 ### EwoMail
 
 EwoMail是基于Linux的开源邮件服务器软件，集成了众多优秀稳定的组件，是一个快速部署、简单高效、多语言、安全稳定的邮件解决方案，帮助你提升运维效率，降低 IT 成本，兼容主流的邮件客户端，同时支持电脑和手机邮件客户端。
@@ -45,6 +41,8 @@ CPU：1核
 
 http://doc.ewomail.com/docs/ewomail/install
 
+更新教程
+http://doc.ewomail.com/docs/ewomail/update
 
 
 ### 邮箱后台
